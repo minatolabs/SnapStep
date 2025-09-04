@@ -1,0 +1,95 @@
+Renamed Types:
+
+[SnapStep.Server]<>f__AnonymousType0`1 -> [SnapStep.Server]A.A`1
+{
+	[SnapStep.Server]<>f__AnonymousType0`1::get_error[0]( ) -> A
+
+	[SnapStep.Server]<>f__AnonymousType0`1::.ctor[1]( !0 ) skipped:  special name
+	[SnapStep.Server]<>f__AnonymousType0`1::Equals[1]( [System.Runtime]System.Object ) skipped:  external base class or interface
+	[SnapStep.Server]<>f__AnonymousType0`1::GetHashCode[0]( ) skipped:  external base class or interface
+	[SnapStep.Server]<>f__AnonymousType0`1::ToString[0]( ) skipped:  external base class or interface
+
+	<error>j__TPar [SnapStep.Server]<error>j__TPar <>f__AnonymousType0`1::<error>i__Field -> A
+
+	A [SnapStep.Server]A <>f__AnonymousType0`1::error -> dropped
+}
+
+[SnapStep.Server]<>f__AnonymousType1`2 -> [SnapStep.Server]A.a`2
+{
+	[SnapStep.Server]<>f__AnonymousType1`2::get_images[0]( ) -> A
+	[SnapStep.Server]<>f__AnonymousType1`2::get_doc[0]( ) -> a
+
+	[SnapStep.Server]<>f__AnonymousType1`2::Equals[1]( [System.Runtime]System.Object ) skipped:  external base class or interface
+	[SnapStep.Server]<>f__AnonymousType1`2::GetHashCode[0]( ) skipped:  external base class or interface
+	[SnapStep.Server]<>f__AnonymousType1`2::ToString[0]( ) skipped:  external base class or interface
+	[SnapStep.Server]<>f__AnonymousType1`2::.ctor[2]( !0, !1 ) skipped:  special name
+
+	<images>j__TPar [SnapStep.Server]<images>j__TPar <>f__AnonymousType1`2::<images>i__Field -> A
+	<doc>j__TPar [SnapStep.Server]<doc>j__TPar <>f__AnonymousType1`2::<doc>i__Field -> A
+
+	A [SnapStep.Server]A <>f__AnonymousType1`2::images -> dropped
+	a [SnapStep.Server]a <>f__AnonymousType1`2::doc -> dropped
+}
+
+[SnapStep.Server]Program/<>c -> [SnapStep.Server]A.B/A
+{
+	[SnapStep.Server]Program/<>c::<<Main>$>b__0_3[1]( [System.Runtime]System.String ) -> A
+
+	[SnapStep.Server]Program/<>c::.cctor[0]( ) skipped:  special name
+	[SnapStep.Server]Program/<>c::.ctor[0]( ) skipped:  special name
+
+	Program/<>c [SnapStep.Server]Program/<>c Program/<>c::<>9 -> A
+	System.Func`2<System.String,System.String> [SnapStep.Server]System.Func`2<System.String,System.String> Program/<>c::<>9__0_3 -> A
+}
+
+[SnapStep.Server]Program/<>c__DisplayClass0_0 -> [SnapStep.Server]A.B/a
+{
+	[SnapStep.Server]Program/<>c__DisplayClass0_0::<<Main>$>b__1[1]( [System.Runtime]System.String ) -> A
+	[SnapStep.Server]Program/<>c__DisplayClass0_0::<<Main>$>b__2[2]( [System.Runtime]System.String, [Microsoft.AspNetCore.Http.Abstractions]Microsoft.AspNetCore.Http.HttpRequest ) -> A
+
+	[SnapStep.Server]Program/<>c__DisplayClass0_0::.ctor[0]( ) skipped:  special name
+
+	System.String [SnapStep.Server]System.String Program/<>c__DisplayClass0_0::sessionsRoot -> A
+}
+
+[SnapStep.Server]Program/<>c__DisplayClass0_1 -> [SnapStep.Server]A.B/B
+{
+	[SnapStep.Server]Program/<>c__DisplayClass0_1::<<Main>$>b__4[1]( [System.Runtime]System.String ) -> A
+
+	[SnapStep.Server]Program/<>c__DisplayClass0_1::.ctor[0]( ) skipped:  special name
+
+	System.String [SnapStep.Server]System.String Program/<>c__DisplayClass0_1::id -> A
+}
+
+[SnapStep.Server]Program/<>c__DisplayClass0_0/<<<Main>$>b__2>d -> [SnapStep.Server]A.B/a/A
+{
+
+	[SnapStep.Server]Program/<>c__DisplayClass0_0/<<<Main>$>b__2>d::MoveNext[0]( ) skipped:  external base class or interface
+	[SnapStep.Server]Program/<>c__DisplayClass0_0/<<<Main>$>b__2>d::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) skipped:  external base class or interface
+
+	System.Int32 [SnapStep.Server]System.Int32 Program/<>c__DisplayClass0_0/<<<Main>$>b__2>d::<>1__state -> A
+	System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Microsoft.AspNetCore.Http.IResult> [SnapStep.Server]System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Microsoft.AspNetCore.Http.IResult> Program/<>c__DisplayClass0_0/<<<Main>$>b__2>d::<>t__builder -> A
+	Program/<>c__DisplayClass0_0 [SnapStep.Server]Program/<>c__DisplayClass0_0 Program/<>c__DisplayClass0_0/<<<Main>$>b__2>d::<>4__this -> A
+	System.String [SnapStep.Server]System.String Program/<>c__DisplayClass0_0/<<<Main>$>b__2>d::id -> A
+	Microsoft.AspNetCore.Http.HttpRequest [SnapStep.Server]Microsoft.AspNetCore.Http.HttpRequest Program/<>c__DisplayClass0_0/<<<Main>$>b__2>d::req -> A
+	System.String [SnapStep.Server]System.String Program/<>c__DisplayClass0_0/<<<Main>$>b__2>d::<folder>5__2 -> a
+	System.IO.StreamReader [SnapStep.Server]System.IO.StreamReader Program/<>c__DisplayClass0_0/<<<Main>$>b__2>d::<sr>5__3 -> A
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.String> [SnapStep.Server]System.Runtime.CompilerServices.TaskAwaiter`1<System.String> Program/<>c__DisplayClass0_0/<<<Main>$>b__2>d::<>u__1 -> A
+	System.Runtime.CompilerServices.TaskAwaiter [SnapStep.Server]System.Runtime.CompilerServices.TaskAwaiter Program/<>c__DisplayClass0_0/<<<Main>$>b__2>d::<>u__2 -> A
+}
+
+[SnapStep.Server]Program -> [SnapStep.Server]A.B
+{
+	[SnapStep.Server]Program::<Main>$[1]( [System.Runtime]System.String[] ) -> A
+	[SnapStep.Server]Program::<<Main>$>g__SharedSessionsRoot|0_0[0]( ) -> A
+
+	[SnapStep.Server]Program::.ctor[0]( ) skipped:  special name
+}
+
+Skipped Types:
+
+Renamed Resources:
+
+
+Skipped Resources:
+

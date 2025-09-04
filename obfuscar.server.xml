@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Obfuscator>
+  <Var name="InPath"  value="D:\VS Code\SnapStep\pub\Server" />
+  <Var name="OutPath" value="D:\VS Code\SnapStep\obfuscated\Server" />
+
+  <Var name="KeepPublicApi" value="true" />
+  <Var name="HideStrings"   value="true" />
+
+  <Module file="$(InPath)\SnapStep.Server.dll" />
+  <AssemblySearchPath path="$(InPath)" />
+</Obfuscator>

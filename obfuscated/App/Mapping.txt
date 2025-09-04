@@ -1,0 +1,565 @@
+Renamed Types:
+
+[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider -> [SnapStep.App]A.c
+{
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::GetXamlTypeByType[1]( [System.Runtime]System.Type ) -> A
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::GetXamlTypeByName[1]( [System.Runtime]System.String ) -> A
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::GetMemberByLongName[1]( [System.Runtime]System.String ) -> a
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::InitTypeTables[0]( ) -> A
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::LookupTypeIndexByName[1]( [System.Runtime]System.String ) -> B
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::LookupTypeIndexByType[1]( [System.Runtime]System.Type ) -> a
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::Activate_0_XamlControlsResources[0]( ) -> a
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::Activate_4_MainWindow[0]( ) -> B
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::Activate_6_TreeViewNode[0]( ) -> b
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::StaticInitializer_0_XamlControlsResources[0]( ) -> C
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::StaticInitializer_4_MainWindow[0]( ) -> c
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::StaticInitializer_6_TreeViewNode[0]( ) -> D
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::StaticInitializer_8_IList[0]( ) -> d
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::MapAdd_0_XamlControlsResources[3]( [System.Runtime]System.Object, [System.Runtime]System.Object, [System.Runtime]System.Object ) -> A
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::VectorAdd_8_IList[2]( [System.Runtime]System.Object, [System.Runtime]System.Object ) -> A
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::CreateXamlType[1]( [System.Runtime]System.Int32 ) -> A
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::get_OtherProviders[0]( ) -> E
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::CheckOtherMetadataProvidersForName[1]( [System.Runtime]System.String ) -> b
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::CheckOtherMetadataProvidersForType[1]( [System.Runtime]System.Type ) -> B
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::get_0_XamlControlsResources_UseCompactResources[1]( [System.Runtime]System.Object ) -> A
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::set_0_XamlControlsResources_UseCompactResources[2]( [System.Runtime]System.Object, [System.Runtime]System.Object ) -> a
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::get_1_TreeViewNode_Children[1]( [System.Runtime]System.Object ) -> a
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::get_2_TreeViewNode_Content[1]( [System.Runtime]System.Object ) -> B
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::set_2_TreeViewNode_Content[2]( [System.Runtime]System.Object, [System.Runtime]System.Object ) -> B
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::get_3_TreeViewNode_Depth[1]( [System.Runtime]System.Object ) -> b
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::get_4_TreeViewNode_HasChildren[1]( [System.Runtime]System.Object ) -> C
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::get_5_TreeViewNode_HasUnrealizedChildren[1]( [System.Runtime]System.Object ) -> c
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::set_5_TreeViewNode_HasUnrealizedChildren[2]( [System.Runtime]System.Object, [System.Runtime]System.Object ) -> b
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::get_6_TreeViewNode_IsExpanded[1]( [System.Runtime]System.Object ) -> D
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::set_6_TreeViewNode_IsExpanded[2]( [System.Runtime]System.Object, [System.Runtime]System.Object ) -> C
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::get_7_TreeViewNode_Parent[1]( [System.Runtime]System.Object ) -> d
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::CreateXamlMember[1]( [System.Runtime]System.String ) -> C
+
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::.ctor[0]( ) skipped:  special name
+
+	System.Collections.Generic.Dictionary`2<System.String,Microsoft.UI.Xaml.Markup.IXamlType> [SnapStep.App]System.Collections.Generic.Dictionary`2<System.String,Microsoft.UI.Xaml.Markup.IXamlType> SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::_xamlTypeCacheByName -> A
+	System.Collections.Generic.Dictionary`2<System.Type,Microsoft.UI.Xaml.Markup.IXamlType> [SnapStep.App]System.Collections.Generic.Dictionary`2<System.Type,Microsoft.UI.Xaml.Markup.IXamlType> SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::_xamlTypeCacheByType -> A
+	System.Collections.Generic.Dictionary`2<System.String,Microsoft.UI.Xaml.Markup.IXamlMember> [SnapStep.App]System.Collections.Generic.Dictionary`2<System.String,Microsoft.UI.Xaml.Markup.IXamlMember> SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::_xamlMembers -> A
+	System.String[] [SnapStep.App]System.String[] SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::_typeNameTable -> A
+	System.Type[] [SnapStep.App]System.Type[] SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::_typeTable -> A
+	System.Collections.Generic.List`1<Microsoft.UI.Xaml.Markup.IXamlMetadataProvider> [SnapStep.App]System.Collections.Generic.List`1<Microsoft.UI.Xaml.Markup.IXamlMetadataProvider> SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::_otherProviders -> A
+
+	System.Collections.Generic.List`1<Microsoft.UI.Xaml.Markup.IXamlMetadataProvider> [SnapStep.App]System.Collections.Generic.List`1<Microsoft.UI.Xaml.Markup.IXamlMetadataProvider> SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider::OtherProviders -> dropped
+}
+
+[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType -> [SnapStep.App]A.D
+{
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::get_IsReturnTypeStub[0]( ) -> A
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::get_IsLocalType[0]( ) -> a
+
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::get_FullName[0]( ) skipped:  skip by property
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::get_UnderlyingType[0]( ) skipped:  skip by property
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::get_BaseType[0]( ) skipped:  skip by property
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::get_ContentProperty[0]( ) skipped:  skip by property
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::get_IsArray[0]( ) skipped:  skip by property
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::get_IsCollection[0]( ) skipped:  skip by property
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::get_IsConstructible[0]( ) skipped:  skip by property
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::get_IsDictionary[0]( ) skipped:  skip by property
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::get_IsMarkupExtension[0]( ) skipped:  skip by property
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::get_IsBindable[0]( ) skipped:  skip by property
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::get_ItemType[0]( ) skipped:  skip by property
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::get_KeyType[0]( ) skipped:  skip by property
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::get_BoxedType[0]( ) skipped:  skip by property
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::.ctor[2]( [System.Runtime]System.String, [System.Runtime]System.Type ) skipped:  special name
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::GetMember[1]( [System.Runtime]System.String ) skipped:  external base class or interface
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::ActivateInstance[0]( ) skipped:  external base class or interface
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::AddToMap[3]( [System.Runtime]System.Object, [System.Runtime]System.Object, [System.Runtime]System.Object ) skipped:  external base class or interface
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::AddToVector[2]( [System.Runtime]System.Object, [System.Runtime]System.Object ) skipped:  external base class or interface
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::RunInitializer[0]( ) skipped:  external base class or interface
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::CreateFromString[1]( [System.Runtime]System.String ) skipped:  external base class or interface
+
+	System.String [SnapStep.App]System.String SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::_fullName -> A
+	System.Type [SnapStep.App]System.Type SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::_underlyingType -> A
+
+	System.Boolean [SnapStep.App]System.Boolean SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::IsReturnTypeStub -> dropped
+	System.Boolean [SnapStep.App]System.Boolean SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::IsLocalType -> dropped
+
+	System.String [SnapStep.App]System.String SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::FullName skipped:  KeepPublicApi option in configuration
+	System.Type [SnapStep.App]System.Type SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::UnderlyingType skipped:  KeepPublicApi option in configuration
+	Microsoft.UI.Xaml.Markup.IXamlType [SnapStep.App]Microsoft.UI.Xaml.Markup.IXamlType SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::BaseType skipped:  KeepPublicApi option in configuration
+	Microsoft.UI.Xaml.Markup.IXamlMember [SnapStep.App]Microsoft.UI.Xaml.Markup.IXamlMember SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::ContentProperty skipped:  KeepPublicApi option in configuration
+	System.Boolean [SnapStep.App]System.Boolean SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::IsArray skipped:  KeepPublicApi option in configuration
+	System.Boolean [SnapStep.App]System.Boolean SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::IsCollection skipped:  KeepPublicApi option in configuration
+	System.Boolean [SnapStep.App]System.Boolean SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::IsConstructible skipped:  KeepPublicApi option in configuration
+	System.Boolean [SnapStep.App]System.Boolean SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::IsDictionary skipped:  KeepPublicApi option in configuration
+	System.Boolean [SnapStep.App]System.Boolean SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::IsMarkupExtension skipped:  KeepPublicApi option in configuration
+	System.Boolean [SnapStep.App]System.Boolean SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::IsBindable skipped:  KeepPublicApi option in configuration
+	Microsoft.UI.Xaml.Markup.IXamlType [SnapStep.App]Microsoft.UI.Xaml.Markup.IXamlType SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::ItemType skipped:  KeepPublicApi option in configuration
+	Microsoft.UI.Xaml.Markup.IXamlType [SnapStep.App]Microsoft.UI.Xaml.Markup.IXamlType SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::KeyType skipped:  KeepPublicApi option in configuration
+	Microsoft.UI.Xaml.Markup.IXamlType [SnapStep.App]Microsoft.UI.Xaml.Markup.IXamlType SnapStep.App.SnapStep_App_XamlTypeInfo.XamlSystemBaseType::BoxedType skipped:  KeepPublicApi option in configuration
+}
+
+[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember -> [SnapStep.App]A.h
+{
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::SetTargetTypeName[1]( [System.Runtime]System.String ) -> A
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::SetIsAttachable[0]( ) -> A
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::SetIsDependencyProperty[0]( ) -> a
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::SetIsReadOnly[0]( ) -> B
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::get_Getter[0]( ) -> b
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::set_Getter[1]( [SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.Getter ) -> A
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::get_Setter[0]( ) -> C
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::set_Setter[1]( [SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.Setter ) -> A
+
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::get_Name[0]( ) skipped:  skip by property
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::get_Type[0]( ) skipped:  skip by property
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::get_TargetType[0]( ) skipped:  skip by property
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::get_IsAttachable[0]( ) skipped:  skip by property
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::get_IsDependencyProperty[0]( ) skipped:  skip by property
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::get_IsReadOnly[0]( ) skipped:  skip by property
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::.ctor[3]( [SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider, [System.Runtime]System.String, [System.Runtime]System.String ) skipped:  special name
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::GetValue[1]( [System.Runtime]System.Object ) skipped:  external base class or interface
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::SetValue[2]( [System.Runtime]System.Object, [System.Runtime]System.Object ) skipped:  external base class or interface
+
+	SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider [SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::_provider -> A
+	System.String [SnapStep.App]System.String SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::_name -> A
+	System.Boolean [SnapStep.App]System.Boolean SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::_isAttachable -> A
+	System.Boolean [SnapStep.App]System.Boolean SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::_isDependencyProperty -> a
+	System.Boolean [SnapStep.App]System.Boolean SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::_isReadOnly -> B
+	System.String [SnapStep.App]System.String SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::_typeName -> a
+	System.String [SnapStep.App]System.String SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::_targetTypeName -> B
+	SnapStep.App.SnapStep_App_XamlTypeInfo.Getter [SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.Getter SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::<Getter>k__BackingField -> A
+	SnapStep.App.SnapStep_App_XamlTypeInfo.Setter [SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.Setter SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::<Setter>k__BackingField -> A
+
+	SnapStep.App.SnapStep_App_XamlTypeInfo.Getter [SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.Getter SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::Getter -> dropped
+	SnapStep.App.SnapStep_App_XamlTypeInfo.Setter [SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.Setter SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::Setter -> dropped
+
+	System.String [SnapStep.App]System.String SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::Name skipped:  KeepPublicApi option in configuration
+	Microsoft.UI.Xaml.Markup.IXamlType [SnapStep.App]Microsoft.UI.Xaml.Markup.IXamlType SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::Type skipped:  KeepPublicApi option in configuration
+	Microsoft.UI.Xaml.Markup.IXamlType [SnapStep.App]Microsoft.UI.Xaml.Markup.IXamlType SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::TargetType skipped:  KeepPublicApi option in configuration
+	System.Boolean [SnapStep.App]System.Boolean SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::IsAttachable skipped:  KeepPublicApi option in configuration
+	System.Boolean [SnapStep.App]System.Boolean SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::IsDependencyProperty skipped:  KeepPublicApi option in configuration
+	System.Boolean [SnapStep.App]System.Boolean SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMember::IsReadOnly skipped:  KeepPublicApi option in configuration
+}
+
+[SnapStep.App]SnapStep.App.MainWindow/POINT -> [SnapStep.App]SnapStep.App.MainWindow/a
+{
+	System.Int32 [SnapStep.App]System.Int32 SnapStep.App.MainWindow/POINT::X -> A
+	System.Int32 [SnapStep.App]System.Int32 SnapStep.App.MainWindow/POINT::Y -> a
+}
+
+[SnapStep.App]SnapStep.App.MainWindow/ICONINFO -> [SnapStep.App]SnapStep.App.MainWindow/B
+{
+	System.Boolean [SnapStep.App]System.Boolean SnapStep.App.MainWindow/ICONINFO::fIcon -> A
+	System.Int32 [SnapStep.App]System.Int32 SnapStep.App.MainWindow/ICONINFO::xHotspot -> A
+	System.Int32 [SnapStep.App]System.Int32 SnapStep.App.MainWindow/ICONINFO::yHotspot -> a
+	System.IntPtr [SnapStep.App]System.IntPtr SnapStep.App.MainWindow/ICONINFO::hbmMask -> A
+	System.IntPtr [SnapStep.App]System.IntPtr SnapStep.App.MainWindow/ICONINFO::hbmColor -> a
+}
+
+[SnapStep.App]SnapStep.App.MainWindow/RECT -> [SnapStep.App]SnapStep.App.MainWindow/b
+{
+	System.Int32 [SnapStep.App]System.Int32 SnapStep.App.MainWindow/RECT::Left -> A
+	System.Int32 [SnapStep.App]System.Int32 SnapStep.App.MainWindow/RECT::Top -> a
+	System.Int32 [SnapStep.App]System.Int32 SnapStep.App.MainWindow/RECT::Right -> B
+	System.Int32 [SnapStep.App]System.Int32 SnapStep.App.MainWindow/RECT::Bottom -> b
+}
+
+[SnapStep.App]SnapStep.App.MainWindow/MONITORINFO -> [SnapStep.App]SnapStep.App.MainWindow/C
+{
+	System.Int32 [SnapStep.App]System.Int32 SnapStep.App.MainWindow/MONITORINFO::cbSize -> A
+	SnapStep.App.MainWindow/RECT [SnapStep.App]SnapStep.App.MainWindow/RECT SnapStep.App.MainWindow/MONITORINFO::rcMonitor -> A
+	SnapStep.App.MainWindow/RECT [SnapStep.App]SnapStep.App.MainWindow/RECT SnapStep.App.MainWindow/MONITORINFO::rcWork -> a
+	System.UInt32 [SnapStep.App]System.UInt32 SnapStep.App.MainWindow/MONITORINFO::dwFlags -> A
+}
+
+[SnapStep.App]SnapStep.App.MainWindow/CURSORINFO -> [SnapStep.App]SnapStep.App.MainWindow/c
+{
+	System.Int32 [SnapStep.App]System.Int32 SnapStep.App.MainWindow/CURSORINFO::cbSize -> A
+	System.Int32 [SnapStep.App]System.Int32 SnapStep.App.MainWindow/CURSORINFO::flags -> a
+	System.IntPtr [SnapStep.App]System.IntPtr SnapStep.App.MainWindow/CURSORINFO::hCursor -> A
+	SnapStep.App.MainWindow/POINT [SnapStep.App]SnapStep.App.MainWindow/POINT SnapStep.App.MainWindow/CURSORINFO::ptScreenPos -> A
+}
+
+[SnapStep.App]SnapStep.App.MainWindow/LastCapture -> [SnapStep.App]SnapStep.App.MainWindow/D
+{
+	[SnapStep.App]SnapStep.App.MainWindow/LastCapture::get_Path[0]( ) -> A
+	[SnapStep.App]SnapStep.App.MainWindow/LastCapture::set_Path[1]( [System.Runtime]System.String ) -> A
+	[SnapStep.App]SnapStep.App.MainWindow/LastCapture::get_Left[0]( ) -> a
+	[SnapStep.App]SnapStep.App.MainWindow/LastCapture::set_Left[1]( [System.Runtime]System.Int32 ) -> A
+	[SnapStep.App]SnapStep.App.MainWindow/LastCapture::get_Top[0]( ) -> B
+	[SnapStep.App]SnapStep.App.MainWindow/LastCapture::set_Top[1]( [System.Runtime]System.Int32 ) -> a
+	[SnapStep.App]SnapStep.App.MainWindow/LastCapture::get_W[0]( ) -> b
+	[SnapStep.App]SnapStep.App.MainWindow/LastCapture::set_W[1]( [System.Runtime]System.Int32 ) -> B
+	[SnapStep.App]SnapStep.App.MainWindow/LastCapture::get_H[0]( ) -> C
+	[SnapStep.App]SnapStep.App.MainWindow/LastCapture::set_H[1]( [System.Runtime]System.Int32 ) -> b
+	[SnapStep.App]SnapStep.App.MainWindow/LastCapture::get_Cx[0]( ) -> c
+	[SnapStep.App]SnapStep.App.MainWindow/LastCapture::set_Cx[1]( [System.Runtime]System.Int32 ) -> C
+	[SnapStep.App]SnapStep.App.MainWindow/LastCapture::get_Cy[0]( ) -> D
+	[SnapStep.App]SnapStep.App.MainWindow/LastCapture::set_Cy[1]( [System.Runtime]System.Int32 ) -> c
+	[SnapStep.App]SnapStep.App.MainWindow/LastCapture::get_R[0]( ) -> d
+	[SnapStep.App]SnapStep.App.MainWindow/LastCapture::set_R[1]( [System.Runtime]System.Int32 ) -> D
+	[SnapStep.App]SnapStep.App.MainWindow/LastCapture::PrintMembers[1]( [System.Runtime]System.Text.StringBuilder ) -> A
+	[SnapStep.App]SnapStep.App.MainWindow/LastCapture::Deconstruct[8]( [System.Runtime]System.String&, [System.Runtime]System.Int32&, [System.Runtime]System.Int32&, [System.Runtime]System.Int32&, [System.Runtime]System.Int32&, [System.Runtime]System.Int32&, [System.Runtime]System.Int32&, [System.Runtime]System.Int32& ) -> A
+
+	[SnapStep.App]SnapStep.App.MainWindow/LastCapture::.ctor[8]( [System.Runtime]System.String, [System.Runtime]System.Int32, [System.Runtime]System.Int32, [System.Runtime]System.Int32, [System.Runtime]System.Int32, [System.Runtime]System.Int32, [System.Runtime]System.Int32, [System.Runtime]System.Int32 ) skipped:  special name
+	[SnapStep.App]SnapStep.App.MainWindow/LastCapture::ToString[0]( ) skipped:  external base class or interface
+	[SnapStep.App]SnapStep.App.MainWindow/LastCapture::op_Inequality[2]( [SnapStep.App]SnapStep.App.MainWindow/LastCapture, [SnapStep.App]SnapStep.App.MainWindow/LastCapture ) skipped:  special name
+	[SnapStep.App]SnapStep.App.MainWindow/LastCapture::op_Equality[2]( [SnapStep.App]SnapStep.App.MainWindow/LastCapture, [SnapStep.App]SnapStep.App.MainWindow/LastCapture ) skipped:  special name
+	[SnapStep.App]SnapStep.App.MainWindow/LastCapture::GetHashCode[0]( ) skipped:  external base class or interface
+	[SnapStep.App]SnapStep.App.MainWindow/LastCapture::Equals[1]( [System.Runtime]System.Object ) skipped:  external base class or interface
+	[SnapStep.App]SnapStep.App.MainWindow/LastCapture::Equals[1]( [SnapStep.App]SnapStep.App.MainWindow/LastCapture ) skipped:  external base class or interface
+
+	System.String [SnapStep.App]System.String SnapStep.App.MainWindow/LastCapture::<Path>k__BackingField -> A
+	System.Int32 [SnapStep.App]System.Int32 SnapStep.App.MainWindow/LastCapture::<Left>k__BackingField -> A
+	System.Int32 [SnapStep.App]System.Int32 SnapStep.App.MainWindow/LastCapture::<Top>k__BackingField -> a
+	System.Int32 [SnapStep.App]System.Int32 SnapStep.App.MainWindow/LastCapture::<W>k__BackingField -> B
+	System.Int32 [SnapStep.App]System.Int32 SnapStep.App.MainWindow/LastCapture::<H>k__BackingField -> b
+	System.Int32 [SnapStep.App]System.Int32 SnapStep.App.MainWindow/LastCapture::<Cx>k__BackingField -> C
+	System.Int32 [SnapStep.App]System.Int32 SnapStep.App.MainWindow/LastCapture::<Cy>k__BackingField -> c
+	System.Int32 [SnapStep.App]System.Int32 SnapStep.App.MainWindow/LastCapture::<R>k__BackingField -> D
+
+	System.String [SnapStep.App]System.String SnapStep.App.MainWindow/LastCapture::Path -> dropped
+	System.Int32 [SnapStep.App]System.Int32 SnapStep.App.MainWindow/LastCapture::Left -> dropped
+	System.Int32 [SnapStep.App]System.Int32 SnapStep.App.MainWindow/LastCapture::Top -> dropped
+	System.Int32 [SnapStep.App]System.Int32 SnapStep.App.MainWindow/LastCapture::W -> dropped
+	System.Int32 [SnapStep.App]System.Int32 SnapStep.App.MainWindow/LastCapture::H -> dropped
+	System.Int32 [SnapStep.App]System.Int32 SnapStep.App.MainWindow/LastCapture::Cx -> dropped
+	System.Int32 [SnapStep.App]System.Int32 SnapStep.App.MainWindow/LastCapture::Cy -> dropped
+	System.Int32 [SnapStep.App]System.Int32 SnapStep.App.MainWindow/LastCapture::R -> dropped
+}
+
+[SnapStep.App]SnapStep.App.MainWindow/<BtnImport_Click>d__7 -> [SnapStep.App]SnapStep.App.MainWindow/d
+{
+	[SnapStep.App]SnapStep.App.MainWindow/<BtnImport_Click>d__7::SetStateMachine[1]( [System.Runtime]System.Runtime.CompilerServices.IAsyncStateMachine ) -> A
+
+	[SnapStep.App]SnapStep.App.MainWindow/<BtnImport_Click>d__7::MoveNext[0]( ) skipped:  external base class or interface
+
+	System.Int32 [SnapStep.App]System.Int32 SnapStep.App.MainWindow/<BtnImport_Click>d__7::<>1__state -> A
+	System.Runtime.CompilerServices.AsyncVoidMethodBuilder [SnapStep.App]System.Runtime.CompilerServices.AsyncVoidMethodBuilder SnapStep.App.MainWindow/<BtnImport_Click>d__7::<>t__builder -> A
+	SnapStep.App.MainWindow [SnapStep.App]SnapStep.App.MainWindow SnapStep.App.MainWindow/<BtnImport_Click>d__7::<>4__this -> A
+	System.String [SnapStep.App]System.String SnapStep.App.MainWindow/<BtnImport_Click>d__7::<folder>5__2 -> A
+	System.Int32 [SnapStep.App]System.Int32 SnapStep.App.MainWindow/<BtnImport_Click>d__7::<nextIndex>5__3 -> a
+	System.Runtime.CompilerServices.TaskAwaiter`1<System.Collections.Generic.IReadOnlyList`1<Windows.Storage.StorageFile>> [SnapStep.App]System.Runtime.CompilerServices.TaskAwaiter`1<System.Collections.Generic.IReadOnlyList`1<Windows.Storage.StorageFile>> SnapStep.App.MainWindow/<BtnImport_Click>d__7::<>u__1 -> A
+	System.Collections.Generic.IEnumerator`1<Windows.Storage.StorageFile> [SnapStep.App]System.Collections.Generic.IEnumerator`1<Windows.Storage.StorageFile> SnapStep.App.MainWindow/<BtnImport_Click>d__7::<>7__wrap3 -> A
+	Windows.Storage.Streams.IRandomAccessStreamWithContentType [SnapStep.App]Windows.Storage.Streams.IRandomAccessStreamWithContentType SnapStep.App.MainWindow/<BtnImport_Click>d__7::<src>5__5 -> A
+	System.IO.FileStream [SnapStep.App]System.IO.FileStream SnapStep.App.MainWindow/<BtnImport_Click>d__7::<fs>5__6 -> A
+	System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.Streams.IRandomAccessStreamWithContentType> [SnapStep.App]System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.Streams.IRandomAccessStreamWithContentType> SnapStep.App.MainWindow/<BtnImport_Click>d__7::<>u__2 -> A
+	System.Runtime.CompilerServices.TaskAwaiter [SnapStep.App]System.Runtime.CompilerServices.TaskAwaiter SnapStep.App.MainWindow/<BtnImport_Click>d__7::<>u__3 -> A
+}
+
+[SnapStep.App]SnapStep.App.Program/<>c -> [SnapStep.App]SnapStep.App.Program/A
+{
+	[SnapStep.App]SnapStep.App.Program/<>c::<Main>b__0_0[1]( [Microsoft.WinUI]Microsoft.UI.Xaml.ApplicationInitializationCallbackParams ) -> A
+
+	[SnapStep.App]SnapStep.App.Program/<>c::.cctor[0]( ) skipped:  special name
+	[SnapStep.App]SnapStep.App.Program/<>c::.ctor[0]( ) skipped:  special name
+
+	SnapStep.App.Program/<>c [SnapStep.App]SnapStep.App.Program/<>c SnapStep.App.Program/<>c::<>9 -> A
+	Microsoft.UI.Xaml.ApplicationInitializationCallback [SnapStep.App]Microsoft.UI.Xaml.ApplicationInitializationCallback SnapStep.App.Program/<>c::<>9__0_0 -> A
+}
+
+[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType -> [SnapStep.App]A.m
+{
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::get_IsReturnTypeStub[0]( ) -> A
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::get_IsLocalType[0]( ) -> a
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::get_Activator[0]( ) -> B
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::set_Activator[1]( [SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.Activator ) -> A
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::get_StaticInitializer[0]( ) -> b
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::set_StaticInitializer[1]( [SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.StaticInitializer ) -> A
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::get_CollectionAdd[0]( ) -> C
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::set_CollectionAdd[1]( [SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.AddToCollection ) -> A
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::get_DictionaryAdd[0]( ) -> c
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::set_DictionaryAdd[1]( [SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.AddToDictionary ) -> A
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::get_CreateFromStringMethod[0]( ) -> D
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::set_CreateFromStringMethod[1]( [SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.CreateFromStringMethod ) -> A
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::get_BoxInstance[0]( ) -> d
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::set_BoxInstance[1]( [SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.BoxInstanceMethod ) -> A
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::SetContentPropertyName[1]( [System.Runtime]System.String ) -> A
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::SetIsArray[0]( ) -> E
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::SetIsMarkupExtension[0]( ) -> e
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::SetIsBindable[0]( ) -> F
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::SetIsReturnTypeStub[0]( ) -> f
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::SetIsLocalType[0]( ) -> G
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::SetItemTypeName[1]( [System.Runtime]System.String ) -> a
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::SetKeyTypeName[1]( [System.Runtime]System.String ) -> B
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::SetBoxedType[1]( [Microsoft.WinUI]Microsoft.UI.Xaml.Markup.IXamlType ) -> A
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::BoxType[1]( [System.Runtime]System.Object ) -> A
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::AddMemberName[1]( [System.Runtime]System.String ) -> b
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::AddEnumValue[2]( [System.Runtime]System.String, [System.Runtime]System.Object ) -> A
+
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::get_BaseType[0]( ) skipped:  skip by property
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::get_IsArray[0]( ) skipped:  skip by property
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::get_IsCollection[0]( ) skipped:  skip by property
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::get_IsConstructible[0]( ) skipped:  skip by property
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::get_IsDictionary[0]( ) skipped:  skip by property
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::get_IsMarkupExtension[0]( ) skipped:  skip by property
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::get_IsBindable[0]( ) skipped:  skip by property
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::get_BoxedType[0]( ) skipped:  skip by property
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::get_ContentProperty[0]( ) skipped:  skip by property
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::get_ItemType[0]( ) skipped:  skip by property
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::get_KeyType[0]( ) skipped:  skip by property
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::GetMember[1]( [System.Runtime]System.String ) skipped:  external base class or interface
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::ActivateInstance[0]( ) skipped:  external base class or interface
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::AddToMap[3]( [System.Runtime]System.Object, [System.Runtime]System.Object, [System.Runtime]System.Object ) skipped:  external base class or interface
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::AddToVector[2]( [System.Runtime]System.Object, [System.Runtime]System.Object ) skipped:  external base class or interface
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::RunInitializer[0]( ) skipped:  external base class or interface
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::CreateFromString[1]( [System.Runtime]System.String ) skipped:  external base class or interface
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::.ctor[4]( [SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider, [System.Runtime]System.String, [System.Runtime]System.Type, [Microsoft.WinUI]Microsoft.UI.Xaml.Markup.IXamlType ) skipped:  special name
+
+	SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider [SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::_provider -> A
+	Microsoft.UI.Xaml.Markup.IXamlType [SnapStep.App]Microsoft.UI.Xaml.Markup.IXamlType SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::_baseType -> A
+	Microsoft.UI.Xaml.Markup.IXamlType [SnapStep.App]Microsoft.UI.Xaml.Markup.IXamlType SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::_boxedType -> a
+	System.Boolean [SnapStep.App]System.Boolean SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::_isArray -> A
+	System.Boolean [SnapStep.App]System.Boolean SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::_isMarkupExtension -> a
+	System.Boolean [SnapStep.App]System.Boolean SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::_isBindable -> B
+	System.Boolean [SnapStep.App]System.Boolean SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::_isReturnTypeStub -> b
+	System.Boolean [SnapStep.App]System.Boolean SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::_isLocalType -> C
+	System.String [SnapStep.App]System.String SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::_contentPropertyName -> A
+	System.String [SnapStep.App]System.String SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::_itemTypeName -> a
+	System.String [SnapStep.App]System.String SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::_keyTypeName -> B
+	System.Collections.Generic.Dictionary`2<System.String,System.String> [SnapStep.App]System.Collections.Generic.Dictionary`2<System.String,System.String> SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::_memberNames -> A
+	System.Collections.Generic.Dictionary`2<System.String,System.Object> [SnapStep.App]System.Collections.Generic.Dictionary`2<System.String,System.Object> SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::_enumValues -> A
+	SnapStep.App.SnapStep_App_XamlTypeInfo.Activator [SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.Activator SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::<Activator>k__BackingField -> A
+	SnapStep.App.SnapStep_App_XamlTypeInfo.StaticInitializer [SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.StaticInitializer SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::<StaticInitializer>k__BackingField -> A
+	SnapStep.App.SnapStep_App_XamlTypeInfo.AddToCollection [SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.AddToCollection SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::<CollectionAdd>k__BackingField -> A
+	SnapStep.App.SnapStep_App_XamlTypeInfo.AddToDictionary [SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.AddToDictionary SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::<DictionaryAdd>k__BackingField -> A
+	SnapStep.App.SnapStep_App_XamlTypeInfo.CreateFromStringMethod [SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.CreateFromStringMethod SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::<CreateFromStringMethod>k__BackingField -> A
+	SnapStep.App.SnapStep_App_XamlTypeInfo.BoxInstanceMethod [SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.BoxInstanceMethod SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::<BoxInstance>k__BackingField -> A
+
+	System.Boolean [SnapStep.App]System.Boolean SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::IsReturnTypeStub -> dropped
+	System.Boolean [SnapStep.App]System.Boolean SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::IsLocalType -> dropped
+	SnapStep.App.SnapStep_App_XamlTypeInfo.Activator [SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.Activator SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::Activator -> dropped
+	SnapStep.App.SnapStep_App_XamlTypeInfo.StaticInitializer [SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.StaticInitializer SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::StaticInitializer -> dropped
+	SnapStep.App.SnapStep_App_XamlTypeInfo.AddToCollection [SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.AddToCollection SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::CollectionAdd -> dropped
+	SnapStep.App.SnapStep_App_XamlTypeInfo.AddToDictionary [SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.AddToDictionary SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::DictionaryAdd -> dropped
+	SnapStep.App.SnapStep_App_XamlTypeInfo.CreateFromStringMethod [SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.CreateFromStringMethod SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::CreateFromStringMethod -> dropped
+	SnapStep.App.SnapStep_App_XamlTypeInfo.BoxInstanceMethod [SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.BoxInstanceMethod SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::BoxInstance -> dropped
+
+	Microsoft.UI.Xaml.Markup.IXamlType [SnapStep.App]Microsoft.UI.Xaml.Markup.IXamlType SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::BaseType skipped:  KeepPublicApi option in configuration
+	System.Boolean [SnapStep.App]System.Boolean SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::IsArray skipped:  KeepPublicApi option in configuration
+	System.Boolean [SnapStep.App]System.Boolean SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::IsCollection skipped:  KeepPublicApi option in configuration
+	System.Boolean [SnapStep.App]System.Boolean SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::IsConstructible skipped:  KeepPublicApi option in configuration
+	System.Boolean [SnapStep.App]System.Boolean SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::IsDictionary skipped:  KeepPublicApi option in configuration
+	System.Boolean [SnapStep.App]System.Boolean SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::IsMarkupExtension skipped:  KeepPublicApi option in configuration
+	System.Boolean [SnapStep.App]System.Boolean SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::IsBindable skipped:  KeepPublicApi option in configuration
+	Microsoft.UI.Xaml.Markup.IXamlType [SnapStep.App]Microsoft.UI.Xaml.Markup.IXamlType SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::BoxedType skipped:  KeepPublicApi option in configuration
+	Microsoft.UI.Xaml.Markup.IXamlMember [SnapStep.App]Microsoft.UI.Xaml.Markup.IXamlMember SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::ContentProperty skipped:  KeepPublicApi option in configuration
+	Microsoft.UI.Xaml.Markup.IXamlType [SnapStep.App]Microsoft.UI.Xaml.Markup.IXamlType SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::ItemType skipped:  KeepPublicApi option in configuration
+	Microsoft.UI.Xaml.Markup.IXamlType [SnapStep.App]Microsoft.UI.Xaml.Markup.IXamlType SnapStep.App.SnapStep_App_XamlTypeInfo.XamlUserType::KeyType skipped:  KeepPublicApi option in configuration
+}
+
+[SnapStep.App]WinRT.SnapStep_AppVtableClasses.SnapStep_App_SnapStep_App_XamlTypeInfo_XamlMetaDataProviderWinRTTypeDetails -> [SnapStep.App]A.A
+{
+
+	[SnapStep.App]WinRT.SnapStep_AppVtableClasses.SnapStep_App_SnapStep_App_XamlTypeInfo_XamlMetaDataProviderWinRTTypeDetails::GetExposedInterfaces[0]( ) skipped:  external base class or interface
+	[SnapStep.App]WinRT.SnapStep_AppVtableClasses.SnapStep_App_SnapStep_App_XamlTypeInfo_XamlMetaDataProviderWinRTTypeDetails::.ctor[0]( ) skipped:  special name
+}
+
+[SnapStep.App]WinRT.SnapStep_AppVtableClasses.SnapStep_App_SnapStep_App_XamlTypeInfo_XamlMemberWinRTTypeDetails -> [SnapStep.App]A.a
+{
+
+	[SnapStep.App]WinRT.SnapStep_AppVtableClasses.SnapStep_App_SnapStep_App_XamlTypeInfo_XamlMemberWinRTTypeDetails::GetExposedInterfaces[0]( ) skipped:  external base class or interface
+	[SnapStep.App]WinRT.SnapStep_AppVtableClasses.SnapStep_App_SnapStep_App_XamlTypeInfo_XamlMemberWinRTTypeDetails::.ctor[0]( ) skipped:  special name
+}
+
+[SnapStep.App]WinRT.SnapStep_AppVtableClasses.SnapStep_App_MainWindowWinRTTypeDetails -> [SnapStep.App]A.B
+{
+
+	[SnapStep.App]WinRT.SnapStep_AppVtableClasses.SnapStep_App_MainWindowWinRTTypeDetails::GetExposedInterfaces[0]( ) skipped:  external base class or interface
+	[SnapStep.App]WinRT.SnapStep_AppVtableClasses.SnapStep_App_MainWindowWinRTTypeDetails::.ctor[0]( ) skipped:  special name
+}
+
+[SnapStep.App]WinRT.SnapStep_AppVtableClasses.SnapStep_App_SnapStep_App_XamlTypeInfo_XamlUserTypeWinRTTypeDetails -> [SnapStep.App]A.b
+{
+
+	[SnapStep.App]WinRT.SnapStep_AppVtableClasses.SnapStep_App_SnapStep_App_XamlTypeInfo_XamlUserTypeWinRTTypeDetails::GetExposedInterfaces[0]( ) skipped:  external base class or interface
+	[SnapStep.App]WinRT.SnapStep_AppVtableClasses.SnapStep_App_SnapStep_App_XamlTypeInfo_XamlUserTypeWinRTTypeDetails::.ctor[0]( ) skipped:  special name
+}
+
+[SnapStep.App]WinRT.SnapStep_AppVtableClasses.SnapStep_App_AppWinRTTypeDetails -> [SnapStep.App]A.C
+{
+
+	[SnapStep.App]WinRT.SnapStep_AppVtableClasses.SnapStep_App_AppWinRTTypeDetails::GetExposedInterfaces[0]( ) skipped:  external base class or interface
+	[SnapStep.App]WinRT.SnapStep_AppVtableClasses.SnapStep_App_AppWinRTTypeDetails::.ctor[0]( ) skipped:  special name
+}
+
+[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.Activator -> [SnapStep.App]A.d
+{
+
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.Activator::.ctor[2]( [System.Runtime]System.Object, [System.Runtime]System.IntPtr ) skipped:  runtime method
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.Activator::Invoke[0]( ) skipped:  runtime method
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.Activator::BeginInvoke[2]( [System.Runtime]System.AsyncCallback, [System.Runtime]System.Object ) skipped:  runtime method
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.Activator::EndInvoke[1]( [System.Runtime]System.IAsyncResult ) skipped:  runtime method
+}
+
+[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.StaticInitializer -> [SnapStep.App]A.E
+{
+
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.StaticInitializer::.ctor[2]( [System.Runtime]System.Object, [System.Runtime]System.IntPtr ) skipped:  runtime method
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.StaticInitializer::Invoke[0]( ) skipped:  runtime method
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.StaticInitializer::BeginInvoke[2]( [System.Runtime]System.AsyncCallback, [System.Runtime]System.Object ) skipped:  runtime method
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.StaticInitializer::EndInvoke[1]( [System.Runtime]System.IAsyncResult ) skipped:  runtime method
+}
+
+[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.AddToCollection -> [SnapStep.App]A.e
+{
+
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.AddToCollection::.ctor[2]( [System.Runtime]System.Object, [System.Runtime]System.IntPtr ) skipped:  runtime method
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.AddToCollection::Invoke[2]( [System.Runtime]System.Object, [System.Runtime]System.Object ) skipped:  runtime method
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.AddToCollection::BeginInvoke[4]( [System.Runtime]System.Object, [System.Runtime]System.Object, [System.Runtime]System.AsyncCallback, [System.Runtime]System.Object ) skipped:  runtime method
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.AddToCollection::EndInvoke[1]( [System.Runtime]System.IAsyncResult ) skipped:  runtime method
+}
+
+[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.AddToDictionary -> [SnapStep.App]A.F
+{
+
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.AddToDictionary::.ctor[2]( [System.Runtime]System.Object, [System.Runtime]System.IntPtr ) skipped:  runtime method
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.AddToDictionary::Invoke[3]( [System.Runtime]System.Object, [System.Runtime]System.Object, [System.Runtime]System.Object ) skipped:  runtime method
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.AddToDictionary::BeginInvoke[5]( [System.Runtime]System.Object, [System.Runtime]System.Object, [System.Runtime]System.Object, [System.Runtime]System.AsyncCallback, [System.Runtime]System.Object ) skipped:  runtime method
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.AddToDictionary::EndInvoke[1]( [System.Runtime]System.IAsyncResult ) skipped:  runtime method
+}
+
+[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.CreateFromStringMethod -> [SnapStep.App]A.f
+{
+
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.CreateFromStringMethod::.ctor[2]( [System.Runtime]System.Object, [System.Runtime]System.IntPtr ) skipped:  runtime method
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.CreateFromStringMethod::Invoke[1]( [System.Runtime]System.String ) skipped:  runtime method
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.CreateFromStringMethod::BeginInvoke[3]( [System.Runtime]System.String, [System.Runtime]System.AsyncCallback, [System.Runtime]System.Object ) skipped:  runtime method
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.CreateFromStringMethod::EndInvoke[1]( [System.Runtime]System.IAsyncResult ) skipped:  runtime method
+}
+
+[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.BoxInstanceMethod -> [SnapStep.App]A.G
+{
+
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.BoxInstanceMethod::.ctor[2]( [System.Runtime]System.Object, [System.Runtime]System.IntPtr ) skipped:  runtime method
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.BoxInstanceMethod::Invoke[1]( [System.Runtime]System.Object ) skipped:  runtime method
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.BoxInstanceMethod::BeginInvoke[3]( [System.Runtime]System.Object, [System.Runtime]System.AsyncCallback, [System.Runtime]System.Object ) skipped:  runtime method
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.BoxInstanceMethod::EndInvoke[1]( [System.Runtime]System.IAsyncResult ) skipped:  runtime method
+}
+
+[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.Getter -> [SnapStep.App]A.g
+{
+
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.Getter::.ctor[2]( [System.Runtime]System.Object, [System.Runtime]System.IntPtr ) skipped:  runtime method
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.Getter::Invoke[1]( [System.Runtime]System.Object ) skipped:  runtime method
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.Getter::BeginInvoke[3]( [System.Runtime]System.Object, [System.Runtime]System.AsyncCallback, [System.Runtime]System.Object ) skipped:  runtime method
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.Getter::EndInvoke[1]( [System.Runtime]System.IAsyncResult ) skipped:  runtime method
+}
+
+[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.Setter -> [SnapStep.App]A.H
+{
+
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.Setter::.ctor[2]( [System.Runtime]System.Object, [System.Runtime]System.IntPtr ) skipped:  runtime method
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.Setter::Invoke[2]( [System.Runtime]System.Object, [System.Runtime]System.Object ) skipped:  runtime method
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.Setter::BeginInvoke[4]( [System.Runtime]System.Object, [System.Runtime]System.Object, [System.Runtime]System.AsyncCallback, [System.Runtime]System.Object ) skipped:  runtime method
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.Setter::EndInvoke[1]( [System.Runtime]System.IAsyncResult ) skipped:  runtime method
+}
+
+[SnapStep.App]SnapStep.App.MainWindow/LowLevelMouseProc -> [SnapStep.App]SnapStep.App.MainWindow/A
+{
+
+	[SnapStep.App]SnapStep.App.MainWindow/LowLevelMouseProc::.ctor[2]( [System.Runtime]System.Object, [System.Runtime]System.IntPtr ) skipped:  runtime method
+	[SnapStep.App]SnapStep.App.MainWindow/LowLevelMouseProc::Invoke[3]( [System.Runtime]System.Int32, [System.Runtime]System.IntPtr, [System.Runtime]System.IntPtr ) skipped:  runtime method
+	[SnapStep.App]SnapStep.App.MainWindow/LowLevelMouseProc::BeginInvoke[5]( [System.Runtime]System.Int32, [System.Runtime]System.IntPtr, [System.Runtime]System.IntPtr, [System.Runtime]System.AsyncCallback, [System.Runtime]System.Object ) skipped:  runtime method
+	[SnapStep.App]SnapStep.App.MainWindow/LowLevelMouseProc::EndInvoke[1]( [System.Runtime]System.IAsyncResult ) skipped:  runtime method
+}
+
+Skipped Types:
+
+[SnapStep.App]SnapStep.App.App skipped:  KeepPublicApi option in configuration
+{
+	[SnapStep.App]SnapStep.App.App::get__AppProvider[0]( ) -> A
+
+	[SnapStep.App]SnapStep.App.App::.ctor[0]( ) skipped:  special name
+	[SnapStep.App]SnapStep.App.App::OnLaunched[1]( [Microsoft.WinUI]Microsoft.UI.Xaml.LaunchActivatedEventArgs ) skipped:  external base class or interface
+	[SnapStep.App]SnapStep.App.App::InitializeComponent[0]( ) skipped:  KeepPublicApi option in configuration
+	[SnapStep.App]SnapStep.App.App::GetXamlType[1]( [System.Runtime]System.Type ) skipped:  external base class or interface
+	[SnapStep.App]SnapStep.App.App::GetXamlType[1]( [System.Runtime]System.String ) skipped:  external base class or interface
+	[SnapStep.App]SnapStep.App.App::GetXmlnsDefinitions[0]( ) skipped:  external base class or interface
+
+	Microsoft.UI.Xaml.Window [SnapStep.App]Microsoft.UI.Xaml.Window SnapStep.App.App::_window -> A
+	System.Boolean [SnapStep.App]System.Boolean SnapStep.App.App::_contentLoaded -> A
+	SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMetaDataProvider [SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMetaDataProvider SnapStep.App.App::__appProvider -> A
+
+	SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMetaDataProvider [SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMetaDataProvider SnapStep.App.App::_AppProvider -> A
+}
+
+[SnapStep.App]SnapStep.App.MainWindow skipped:  KeepPublicApi option in configuration
+{
+	[SnapStep.App]SnapStep.App.MainWindow::get_SessionsRoot[0]( ) -> A
+	[SnapStep.App]SnapStep.App.MainWindow::BtnSettings_Click[2]( [System.Runtime]System.Object, [Microsoft.WinUI]Microsoft.UI.Xaml.RoutedEventArgs ) -> A
+	[SnapStep.App]SnapStep.App.MainWindow::BtnStart_Click[2]( [System.Runtime]System.Object, [Microsoft.WinUI]Microsoft.UI.Xaml.RoutedEventArgs ) -> a
+	[SnapStep.App]SnapStep.App.MainWindow::BtnPause_Click[2]( [System.Runtime]System.Object, [Microsoft.WinUI]Microsoft.UI.Xaml.RoutedEventArgs ) -> B
+	[SnapStep.App]SnapStep.App.MainWindow::BtnImport_Click[2]( [System.Runtime]System.Object, [Microsoft.WinUI]Microsoft.UI.Xaml.RoutedEventArgs ) -> b
+	[SnapStep.App]SnapStep.App.MainWindow::BtnComplete_Click[2]( [System.Runtime]System.Object, [Microsoft.WinUI]Microsoft.UI.Xaml.RoutedEventArgs ) -> C
+	[SnapStep.App]SnapStep.App.MainWindow::GetCursorPos[1]( [SnapStep.App]SnapStep.App.MainWindow/POINT& ) -> A
+	[SnapStep.App]SnapStep.App.MainWindow::SetWindowsHookEx[4]( [System.Runtime]System.Int32, [SnapStep.App]SnapStep.App.MainWindow/LowLevelMouseProc, [System.Runtime]System.IntPtr, [System.Runtime]System.UInt32 ) -> A
+	[SnapStep.App]SnapStep.App.MainWindow::UnhookWindowsHookEx[1]( [System.Runtime]System.IntPtr ) -> A
+	[SnapStep.App]SnapStep.App.MainWindow::CallNextHookEx[4]( [System.Runtime]System.IntPtr, [System.Runtime]System.Int32, [System.Runtime]System.IntPtr, [System.Runtime]System.IntPtr ) -> A
+	[SnapStep.App]SnapStep.App.MainWindow::GetModuleHandle[1]( [System.Runtime]System.String ) -> A
+	[SnapStep.App]SnapStep.App.MainWindow::GetSystemMetrics[1]( [System.Runtime]System.Int32 ) -> A
+	[SnapStep.App]SnapStep.App.MainWindow::GetIconInfo[2]( [System.Runtime]System.IntPtr, [SnapStep.App]SnapStep.App.MainWindow/ICONINFO& ) -> A
+	[SnapStep.App]SnapStep.App.MainWindow::DeleteObject[1]( [System.Runtime]System.IntPtr ) -> a
+	[SnapStep.App]SnapStep.App.MainWindow::MonitorFromPoint[2]( [SnapStep.App]SnapStep.App.MainWindow/POINT, [System.Runtime]System.UInt32 ) -> A
+	[SnapStep.App]SnapStep.App.MainWindow::GetMonitorInfo[2]( [System.Runtime]System.IntPtr, [SnapStep.App]SnapStep.App.MainWindow/MONITORINFO& ) -> A
+	[SnapStep.App]SnapStep.App.MainWindow::GetDoubleClickTime[0]( ) -> a
+	[SnapStep.App]SnapStep.App.MainWindow::GetCursorInfo[1]( [SnapStep.App]SnapStep.App.MainWindow/CURSORINFO& ) -> A
+	[SnapStep.App]SnapStep.App.MainWindow::StartMouseHook[0]( ) -> B
+	[SnapStep.App]SnapStep.App.MainWindow::StopMouseHook[0]( ) -> b
+	[SnapStep.App]SnapStep.App.MainWindow::HookCallback[3]( [System.Runtime]System.Int32, [System.Runtime]System.IntPtr, [System.Runtime]System.IntPtr ) -> A
+	[SnapStep.App]SnapStep.App.MainWindow::CaptureAndSave[2]( [System.Runtime]System.Int32, [System.Runtime]System.Int32 ) -> A
+	[SnapStep.App]SnapStep.App.MainWindow::AddSecondPointerToLast[1]( [SnapStep.App]SnapStep.App.MainWindow/LastCapture ) -> A
+	[SnapStep.App]SnapStep.App.MainWindow::TryGetCursorIcon[0]( ) -> C
+	[SnapStep.App]SnapStep.App.MainWindow::ComputeBoxOnClickedMonitor[2]( [System.Runtime]System.Int32, [System.Runtime]System.Int32 ) -> a
+	[SnapStep.App]SnapStep.App.MainWindow::AddSecondCircleToLast[1]( [SnapStep.App]SnapStep.App.MainWindow/LastCapture ) -> a
+	[SnapStep.App]SnapStep.App.MainWindow::TryGetCursorIconWithHotspot[0]( ) -> c
+	[SnapStep.App]SnapStep.App.MainWindow::<HookCallback>b__41_0[2]( [System.Runtime]System.Object, [System.ComponentModel.TypeConverter]System.Timers.ElapsedEventArgs ) -> A
+
+	[SnapStep.App]SnapStep.App.MainWindow::.ctor[0]( ) skipped:  special name
+	[SnapStep.App]SnapStep.App.MainWindow::InitializeComponent[0]( ) skipped:  KeepPublicApi option in configuration
+	[SnapStep.App]SnapStep.App.MainWindow::Connect[2]( [System.Runtime]System.Int32, [System.Runtime]System.Object ) skipped:  external base class or interface
+	[SnapStep.App]SnapStep.App.MainWindow::GetBindingConnector[2]( [System.Runtime]System.Int32, [System.Runtime]System.Object ) skipped:  external base class or interface
+
+	System.String [SnapStep.App]System.String SnapStep.App.MainWindow::_sessionId -> A
+	System.Boolean [SnapStep.App]System.Boolean SnapStep.App.MainWindow::_isPaused -> A
+	System.IntPtr [SnapStep.App]System.IntPtr SnapStep.App.MainWindow::_mouseHook -> A
+	SnapStep.App.MainWindow/LowLevelMouseProc [SnapStep.App]SnapStep.App.MainWindow/LowLevelMouseProc SnapStep.App.MainWindow::_mouseProc -> A
+	System.Int32 [SnapStep.App]System.Int32 SnapStep.App.MainWindow::WH_MOUSE_LL -> A
+	System.Int32 [SnapStep.App]System.Int32 SnapStep.App.MainWindow::WM_LBUTTONDOWN -> a
+	System.Int32 [SnapStep.App]System.Int32 SnapStep.App.MainWindow::SM_CXSCREEN -> B
+	System.Int32 [SnapStep.App]System.Int32 SnapStep.App.MainWindow::SM_CYSCREEN -> b
+	System.UInt32 [SnapStep.App]System.UInt32 SnapStep.App.MainWindow::MONITOR_DEFAULTTONEAREST -> A
+	System.Int32 [SnapStep.App]System.Int32 SnapStep.App.MainWindow::CURSOR_SHOWING -> C
+	System.Timers.Timer [SnapStep.App]System.Timers.Timer SnapStep.App.MainWindow::_dblTimer -> A
+	System.Nullable`1<SnapStep.App.MainWindow/LastCapture> [SnapStep.App]System.Nullable`1<SnapStep.App.MainWindow/LastCapture> SnapStep.App.MainWindow::_last -> A
+	Microsoft.UI.Xaml.Controls.Button [SnapStep.App]Microsoft.UI.Xaml.Controls.Button SnapStep.App.MainWindow::BtnImport -> A
+	Microsoft.UI.Xaml.Controls.Button [SnapStep.App]Microsoft.UI.Xaml.Controls.Button SnapStep.App.MainWindow::BtnComplete -> a
+	Microsoft.UI.Xaml.Controls.Button [SnapStep.App]Microsoft.UI.Xaml.Controls.Button SnapStep.App.MainWindow::BtnStart -> B
+	Microsoft.UI.Xaml.Controls.Button [SnapStep.App]Microsoft.UI.Xaml.Controls.Button SnapStep.App.MainWindow::BtnPause -> b
+	Microsoft.UI.Xaml.Controls.ComboBox [SnapStep.App]Microsoft.UI.Xaml.Controls.ComboBox SnapStep.App.MainWindow::DpiBox -> A
+	Microsoft.UI.Xaml.Controls.Button [SnapStep.App]Microsoft.UI.Xaml.Controls.Button SnapStep.App.MainWindow::BtnSettings -> C
+	Microsoft.UI.Xaml.Controls.TextBlock [SnapStep.App]Microsoft.UI.Xaml.Controls.TextBlock SnapStep.App.MainWindow::SessionLabel -> A
+	System.Boolean [SnapStep.App]System.Boolean SnapStep.App.MainWindow::_contentLoaded -> a
+
+	System.String [SnapStep.App]System.String SnapStep.App.MainWindow::SessionsRoot -> A
+}
+
+[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMetaDataProvider skipped:  KeepPublicApi option in configuration
+{
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMetaDataProvider::get_Provider[0]( ) -> A
+
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMetaDataProvider::GetXamlType[1]( [System.Runtime]System.Type ) skipped:  external base class or interface
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMetaDataProvider::GetXamlType[1]( [System.Runtime]System.String ) skipped:  external base class or interface
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMetaDataProvider::GetXmlnsDefinitions[0]( ) skipped:  external base class or interface
+	[SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMetaDataProvider::.ctor[0]( ) skipped:  special name
+
+	SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider [SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMetaDataProvider::_provider -> A
+
+	SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider [SnapStep.App]SnapStep.App.SnapStep_App_XamlTypeInfo.XamlTypeInfoProvider SnapStep.App.SnapStep_App_XamlTypeInfo.XamlMetaDataProvider::Provider -> dropped
+}
+
+[SnapStep.App]SnapStep.App.Program skipped:  KeepPublicApi option in configuration
+{
+	[SnapStep.App]SnapStep.App.Program::Main[1]( [System.Runtime]System.String[] ) -> A
+}
+
+Renamed Resources:
+
+
+Skipped Resources:
+

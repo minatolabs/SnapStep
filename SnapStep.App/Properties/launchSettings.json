@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SnapStep.App (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "SnapStep.App (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

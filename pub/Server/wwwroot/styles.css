@@ -1,0 +1,111 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif;background:#0b0b0b;color:#e6e6e6}
+.topbar{position:sticky;top:0;display:flex;justify-content:space-between;align-items:center;padding:.6rem 1rem;background:#111;border-bottom:1px solid #222}
+.topbar .left{display:flex;align-items:center;gap:.6rem}
+.logo{height:26px}
+.topbar .right button{margin-left:.5rem}
+main{max-width:900px;margin:1rem auto;padding:0 1rem}
+#tips{opacity:.8;margin-bottom:.5rem}
+.blocks{list-style:none;padding:0;margin:0}
+.block{background:#121212;border:1px solid #222;border-radius:12px;margin:.75rem 0;padding:1rem;box-shadow:0 0 0 1px #151515}
+.block .note{min-height:48px;padding:.5rem .75rem;margin-bottom:.75rem;border:1px dashed #2b2b2b;border-radius:10px;outline:none;background:#0e0e0e}
+.block img{max-width:100%;border-radius:10px;border:1px solid #222;display:block}
+.block.drag-ghost{opacity:.6}
+.block.drag-chosen{box-shadow:0 0 0 2px #3a3a3a}
+button{background:#1e1e1e;border:1px solid #2a2a2a;border-radius:8px;padding:.5rem .75rem;color:#e6e6e6;cursor:pointer}
+button:hover{background:#242424}
+
+/* ---------- Clean single-column print ---------- */
+@media print {
+    /* Hide chrome/buttons */
+    header.topbar,
+    #tips,
+    .btn,
+    button,
+    .controls {
+        display: none !important;
+    }
+
+    html, body {
+        background: #fff !important;
+    }
+
+    main {
+        padding: 0 !important;
+    }
+
+    /* One column, natural flow */
+    .blocks {
+        display: block !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        gap: 0 !important;
+    }
+
+    /* Each card (note + image) prints as a unit and never splits */
+    .block {
+        border: none !important;
+        border-radius: 0 !important;
+        box-shadow: none !important;
+        padding: 0 0 10mm 0 !important; /* spacing between items */
+        break-inside: avoid !important;
+        page-break-inside: avoid !important;
+        transform-origin: top left; /* so we can gently scale to fit */
+    }
+
+    /* Notes look like plain text */
+    .note,
+    .note:focus {
+        border: none !important;
+        outline: none !important;
+        box-shadow: none !important;
+        background: transparent !important;
+        padding: 0 0 3mm 0 !important;
+    }
+
+    /* Images occupy full width */
+    .block img {
+        width: 100% !important;
+        height: auto !important;
+        display: block !important;
+        border-radius: 0 !important; /* keep radius on image only */
+    }
+
+    /* Paper size/margins. Use Letter if you prefer. */
+    @page {
+        size: A4;
+        margin: 10mm;
+    }
+/* Hidden on screen */
+#printBrand { display: none; }
+
+/* Show on print, repeat on every page */
+@media print {
+  /* Make sure colors print as-is */
+  html, body {
+    -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+  }
+
+  #printBrand {
+    display: block;
+    position: fixed;            /* Chrome/Edge repeats fixed elements on each page */
+    top: 8mm;                   /* adjust if you use larger top margins */
+    right: 8mm;
+    z-index: 9999;
+    pointer-events: none;       /* not clickable/selectable */
+    user-select: none;
+  }
+
+  #printBrand img {
+    width: 55mm;                /* tweak to taste (40–70mm usually looks good) */
+    height: auto;
+  }
+
+  /* (Optional) ensure any on-page toolbars/buttons do not print */
+  .topbar, #btnExportMd, #btnPrint {
+    display: none !important;
+  }
+}
+
+}

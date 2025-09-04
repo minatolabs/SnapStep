@@ -1,0 +1,32 @@
+﻿# ----- Visual Studio / .NET -----
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# build artifacts
+**/bin/
+**/obj/
+**/AppPackages/
+**/TestResults/
+
+# certs/keys
+*.pfx
+*.snk
+*TemporaryKey.pfx
+
+# NuGet
+.packages/
+*.nupkg
+project.lock.json
+artifacts/
+
+# node bits (if you ever add them)
+node_modules/
+
+# ----- SnapStep specifics -----
+/pub/                 # dotnet publish output
+/obfuscated/          # obfuscar output
+/sessions/            # if you ever generated one under the repo by mistake
+*.md.zip              # your previous “combined zip” exports, if any

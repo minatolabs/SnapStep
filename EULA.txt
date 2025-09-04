@@ -1,0 +1,73 @@
+SnapStep – End User License Agreement (EULA) Last Updated: [Insert Date]
+
+This End User License Agreement (“Agreement”) is a legal contract
+between you (“User,” “You”) and MinatoLabs, LLC (d/b/a SnapStep)
+(“Company,” “We,” “Us”), governing your use of the SnapStep software
+application, related services, and documentation (collectively, the
+“Software”).
+
+By installing, copying, or using the Software, you agree to be bound by
+the terms of this Agreement. If you do not agree, do not install or use
+the Software.
+
+1.  Grant of License 1.1 Subject to this Agreement, Company grants you a
+    limited, non-exclusive, non-transferable, revocable license to
+    install and use the Software on devices you own or control. 1.2 The
+    Software is licensed, not sold. All rights not expressly granted
+    remain with Company.
+
+2.  Permitted Use
+
+-   Install and use the Software for personal, educational, or business
+    use.
+-   Create and export documentation, workflows, or training materials
+    using the Software.
+
+3.  Restrictions You may NOT:
+
+-   Modify, reverse engineer, decompile, or disassemble the Software.
+-   Rent, lease, lend, sell, sublicense, or distribute the Software.
+-   Use the Software for any unlawful or unauthorized purpose.
+-   Circumvent any security or license protection mechanisms.
+
+4.  Ownership The Software is owned by MinatoLabs, LLC and is protected
+    by copyright, trademark, and intellectual property laws.
+
+5.  Updates & Support 5.1 Company may provide updates, bug fixes, or
+    enhancements at its sole discretion. 5.2 Nothing in this Agreement
+    obligates Company to provide ongoing support or maintenance.
+
+6.  Termination This Agreement is effective until terminated. Company
+    may terminate your license immediately if you fail to comply with
+    any term. Upon termination, you must uninstall and destroy all
+    copies of the Software.
+
+7.  Disclaimer of Warranties The Software is provided “AS IS” without
+    warranties of any kind, either express or implied, including but not
+    limited to merchantability, fitness for a particular purpose, and
+    non-infringement.
+
+8.  Limitation of Liability To the maximum extent permitted by law:
+
+-   Company shall not be liable for any indirect, incidental, or
+    consequential damages (including lost profits, data loss, or
+    business interruption).
+-   Company’s total liability shall not exceed the amount paid (if any)
+    for the Software.
+
+9.  License Verification & Anti-Tampering The Software may include
+    features that periodically communicate with Company’s servers solely
+    to verify licensing status and detect tampering. Any attempt to
+    bypass or disable these protections is prohibited and will result in
+    termination of this license.
+
+10. Governing Law This Agreement shall be governed by and construed
+    under the laws of the State of California, United States, without
+    regard to conflict of law provisions.
+
+11. Entire Agreement This Agreement constitutes the entire agreement
+    between you and Company regarding the Software and supersedes prior
+    agreements.
+
+12. Contact For questions about this Agreement, contact: MinatoLabs, LLC
+    Email: support@minatolabs.com Website: https://minatolabs.com

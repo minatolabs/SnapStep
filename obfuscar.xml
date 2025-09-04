@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Obfuscator>
+  <!-- Safer starter settings (WinUI uses reflection/XAML binding) -->
+  <Var name="OutPath"       value="obfuscated" />
+  <Var name="KeepPublicApi" value="true" />
+  <Var name="HideStrings"   value="true" />
+
+  <!-- Obfuscate the published assemblies -->
+  <Module file="D:\VS Code\SnapStep\pub\App\SnapStep.App.dll" />
+  <Module file="D:\VS Code\SnapStep\pub\Server\SnapStep.Server.dll" />
+
+  <!-- Let Obfuscar resolve dependencies from publish folders -->
+  <SearchPath path="D:\VS Code\SnapStep\pub\App" />
+  <SearchPath path="D:\VS Code\SnapStep\pub\Server" />
+</Obfuscator>
