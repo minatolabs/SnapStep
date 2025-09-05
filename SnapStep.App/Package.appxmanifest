@@ -10,7 +10,7 @@
   <Identity
     Name="374239b9-4f8f-442b-b51c-d2c41fb60495"
     Publisher="CN=Minatolabs"
-    Version="1.0.0.0" />
+    Version="0.1.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="374239b9-4f8f-442b-b51c-d2c41fb60495" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 

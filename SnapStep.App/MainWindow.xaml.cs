@@ -22,20 +22,41 @@ namespace SnapStep.App;
 public sealed partial class MainWindow : Window
 {
     private string? _sessionId;
+    private LocalServer? _server;
 
-    // Shared data folder (same one the server serves as /sessions)
+    // Shared data folder (same one the in-process server serves as /sessions)
     private string SessionsRoot => Path.Combine(Path.GetTempPath(), "SnapStep", "sessions");
 
     public MainWindow()
     {
-        this.InitializeComponent();
+        InitializeComponent();
         Directory.CreateDirectory(SessionsRoot);
 
+        // Window size and icon
         var hwnd = WindowNative.GetWindowHandle(this);
         var winId = Microsoft.UI.Win32Interop.GetWindowIdFromWindow(hwnd);
         var aw = AppWindow.GetFromWindowId(winId);
         aw?.Resize(new SizeInt32(420, 280));
-        aw?.SetIcon("Assets/appicon.ico");
+        aw?.SetIcon("Assets/appicon.ico"); // (spellchecker may warn; it's fine)
+
+        // Start the embedded ASP.NET Core server
+        _ = StartLocalServerAsync();
+
+        // Ensure hooks/server are cleaned up
+        this.Closed += async (_, __) =>
+        {
+            StopMouseHook();
+            if (_server is not null) await _server.DisposeAsync();
+        };
+    }
+
+    private async System.Threading.Tasks.Task StartLocalServerAsync()
+    {
+        // LocalServer.StartAsync is static and returns a LocalServer instance
+        _server = await LocalServer.StartAsync(
+            url: "http://127.0.0.1:5173",
+            sessionsRoot: SessionsRoot,
+            contentRoot: AppContext.BaseDirectory);
     }
 
     private void BtnSettings_Click(object sender, RoutedEventArgs e)
@@ -43,7 +64,7 @@ public sealed partial class MainWindow : Window
         _ = new ContentDialog
         {
             Title = "Settings (stub)",
-            Content = $"Shared path:\n{SessionsRoot}\n\nSingle-click = instant capture.\nDouble-click = one capture with two pointers.",
+            Content = $"Shared path:\n{SessionsRoot}\n\nSingle-click = instant capture.\nDouble-click = one capture with two concentric rings.",
             CloseButtonText = "Close",
             XamlRoot = this.Content.XamlRoot
         }.ShowAsync();
@@ -104,7 +125,10 @@ public sealed partial class MainWindow : Window
         StopMouseHook();
 
         var url = $"http://127.0.0.1:5173/session/{_sessionId}";
-        try { Process.Start(new ProcessStartInfo { FileName = url, UseShellExecute = true }); }
+        try
+        {
+            Process.Start(new ProcessStartInfo { FileName = url, UseShellExecute = true });
+        }
         catch (Exception ex)
         {
             _ = new ContentDialog
@@ -141,6 +165,7 @@ public sealed partial class MainWindow : Window
     [DllImport("user32.dll")] private static extern int GetSystemMetrics(int nIndex);
     private const int SM_CXSCREEN = 0;
     private const int SM_CYSCREEN = 1;
+
     // Cursor hotspot info
     [StructLayout(LayoutKind.Sequential)]
     private struct ICONINFO
@@ -208,7 +233,7 @@ public sealed partial class MainWindow : Window
         _last = default;
     }
 
-    // ----- NEW: capture immediately; add 2nd pointer if a second click arrives -----
+    // ----- capture immediately; add 2 concentric circles if second click arrives -----
 
     private System.Timers.Timer? _dblTimer;
     private record struct LastCapture(string Path, int Left, int Top, int W, int H, int Cx, int Cy, int R);
@@ -222,9 +247,10 @@ public sealed partial class MainWindow : Window
             {
                 if (_dblTimer == null)
                 {
-                    // FIRST CLICK: capture immediately (no delay)
+                    // FIRST CLICK: capture immediately
                     _last = CaptureAndSave(pt.X, pt.Y);
-                    // start a timer; if no second click arrives, we simply clear the pending state
+
+                    // Arm a timer window for a potential double-click
                     _dblTimer = new System.Timers.Timer(Math.Max(50, GetDoubleClickTime() - 10));
                     _dblTimer.AutoReset = false;
                     _dblTimer.Elapsed += (_, __) => { _last = null; _dblTimer?.Dispose(); _dblTimer = null; };
@@ -232,11 +258,12 @@ public sealed partial class MainWindow : Window
                 }
                 else
                 {
-                    // SECOND CLICK within the double-click window: add second pointer to previous image
+                    // SECOND CLICK within window: draw concentric circles on the last image
                     _dblTimer.Stop();
                     _dblTimer.Dispose();
                     _dblTimer = null;
-                    if (_last.HasValue) AddSecondCircleToLast(_last.Value);   // ⬅ was AddSecondPointerToLast
+
+                    if (_last.HasValue) AddSecondCircleToLast(_last.Value);
                     _last = null;
                 }
             }
@@ -261,15 +288,15 @@ public sealed partial class MainWindow : Window
 
             int cx = x - left, cy = y - top;
 
-            // Base radius (same as before), then reduce by 1/3  → 2/3 of original
+            // Base radius, then reduce by 1/3 → 2/3 of original
             int r0 = Math.Min(3 * baseLen, (int)(Math.Min(w, h) * 0.45));
             int r = Math.Max(6, (int)Math.Round(r0 * (2.0 / 3.0)));
 
-            // Single click: 6 px stroke
+            // Single click ring: thickness 6 px, color #f38c1a
             using var pen = new Pen(System.Drawing.Color.FromArgb(0xF3, 0x8C, 0x1A), 6f);
             g.DrawEllipse(pen, cx - r, cy - r, 2 * r, 2 * r);
 
-            // Draw one pointer with the tip centered
+            // Single pointer (tip centered)
             if (cursorIcon != null)
             {
                 g.DrawIcon(cursorIcon, cx - hotX, cy - hotY);
@@ -285,69 +312,13 @@ public sealed partial class MainWindow : Window
         }
     }
 
-
-
-    private void AddSecondPointerToLast(LastCapture last)
-    {
-        // 1) Load file fully into memory to avoid file lock
-        byte[] bytes = File.ReadAllBytes(last.Path);
-        using var ms = new MemoryStream(bytes);
-        using var baseImg = (Bitmap)DrawingImage.FromStream(ms); // DrawingImage alias from earlier
-
-        // 2) Draw onto a fresh bitmap (so baseImg can be GC'd before save)
-        using var bmp = new Bitmap(baseImg.Width, baseImg.Height, PixelFormat.Format32bppArgb);
-        using (var g = Graphics.FromImage(bmp))
-        {
-            g.SmoothingMode = SmoothingMode.AntiAlias;
-            g.DrawImageUnscaled(baseImg, 0, 0);
-
-            // Draw the second Windows pointer to the RIGHT of the circle center
-            Icon? cursorIcon = TryGetCursorIcon();
-            if (cursorIcon != null)
-            {
-                int iconW = cursorIcon.Width, iconH = cursorIcon.Height;
-                int iconX = Math.Min(Math.Max(last.Cx + last.R + 10, 0), last.W - iconW - 2);
-                int offset = iconH / 2 + 4; // vertical spacing between first and second arrow
-                int y2 = Math.Max(2, Math.Min(last.Cy - iconH / 2 + offset, last.H - iconH - 2));
-
-                g.DrawIcon(cursorIcon, new Rectangle(iconX, y2, iconW, iconH));
-            }
-        }
-
-        // 3) Save back to the same path (with safe fallback)
-        try
-        {
-            bmp.Save(last.Path, ImageFormat.Png);
-        }
-        catch (ExternalException)
-        {
-            // Fallback if something else briefly has the file open
-            string tmp = last.Path + ".tmp";
-            bmp.Save(tmp, ImageFormat.Png);
-            File.Copy(tmp, last.Path, overwrite: true);
-            File.Delete(tmp);
-        }
-    }
-
-    private Icon? TryGetCursorIcon()
-    {
-        try
-        {
-            var ci = new CURSORINFO { cbSize = Marshal.SizeOf<CURSORINFO>() };
-            if (GetCursorInfo(out ci) && (ci.flags & CURSOR_SHOWING) != 0 && ci.hCursor != IntPtr.Zero)
-                return Icon.FromHandle(ci.hCursor);
-        }
-        catch { }
-        return null;
-    }
-
     private (int left, int top, int w, int h) ComputeBoxOnClickedMonitor(int x, int y)
     {
         var mon = MonitorFromPoint(new POINT { X = x, Y = y }, MONITOR_DEFAULTTONEAREST);
         var mi = new MONITORINFO { cbSize = Marshal.SizeOf<MONITORINFO>() };
         if (!GetMonitorInfo(mon, ref mi))
         {
-            // Fallback: primary screen half, no WinForms dependency
+            // Fallback: primary screen half
             int sw = GetSystemMetrics(SM_CXSCREEN);
             int sh = GetSystemMetrics(SM_CYSCREEN);
             int fw = Math.Max(200, sw / 2);
@@ -371,7 +342,6 @@ public sealed partial class MainWindow : Window
 
     private void AddSecondCircleToLast(LastCapture last)
     {
-        // Re-capture the same box so we can draw both rings with 3px
         using var bmp = new Bitmap(last.W, last.H, PixelFormat.Format32bppArgb);
         using (var g = Graphics.FromImage(bmp))
         {
@@ -400,7 +370,6 @@ public sealed partial class MainWindow : Window
             }
         }
 
-        // Save back, with safe fallback
         try
         {
             bmp.Save(last.Path, ImageFormat.Png);
@@ -412,6 +381,18 @@ public sealed partial class MainWindow : Window
             File.Copy(tmp, last.Path, overwrite: true);
             File.Delete(tmp);
         }
+    }
+
+    private Icon? TryGetCursorIcon()
+    {
+        try
+        {
+            var ci = new CURSORINFO { cbSize = Marshal.SizeOf<CURSORINFO>() };
+            if (GetCursorInfo(out ci) && (ci.flags & CURSOR_SHOWING) != 0 && ci.hCursor != IntPtr.Zero)
+                return Icon.FromHandle(ci.hCursor);
+        }
+        catch { }
+        return null;
     }
 
     private (Icon? icon, int hotX, int hotY) TryGetCursorIconWithHotspot()
@@ -435,5 +416,4 @@ public sealed partial class MainWindow : Window
         catch { }
         return (null, 0, 0);
     }
-
 }

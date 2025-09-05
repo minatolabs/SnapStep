@@ -5,8 +5,6 @@ VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnapStep.App", "SnapStep.App\SnapStep.App.csproj", "{F1828CD7-E87D-43AE-A0EE-C84658D73851}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnapStep.Server", "SnapStep.Server\SnapStep.Server.csproj", "{C0C5FDFB-0EA2-446A-B92E-195B9B523BEC}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM64 = Debug|ARM64
@@ -35,18 +33,6 @@ Global
 		{F1828CD7-E87D-43AE-A0EE-C84658D73851}.Release|x86.ActiveCfg = Release|x86
 		{F1828CD7-E87D-43AE-A0EE-C84658D73851}.Release|x86.Build.0 = Release|x86
 		{F1828CD7-E87D-43AE-A0EE-C84658D73851}.Release|x86.Deploy.0 = Release|x86
-		{C0C5FDFB-0EA2-446A-B92E-195B9B523BEC}.Debug|ARM64.ActiveCfg = Debug|Any CPU
-		{C0C5FDFB-0EA2-446A-B92E-195B9B523BEC}.Debug|ARM64.Build.0 = Debug|Any CPU
-		{C0C5FDFB-0EA2-446A-B92E-195B9B523BEC}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{C0C5FDFB-0EA2-446A-B92E-195B9B523BEC}.Debug|x64.Build.0 = Debug|Any CPU
-		{C0C5FDFB-0EA2-446A-B92E-195B9B523BEC}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{C0C5FDFB-0EA2-446A-B92E-195B9B523BEC}.Debug|x86.Build.0 = Debug|Any CPU
-		{C0C5FDFB-0EA2-446A-B92E-195B9B523BEC}.Release|ARM64.ActiveCfg = Release|Any CPU
-		{C0C5FDFB-0EA2-446A-B92E-195B9B523BEC}.Release|ARM64.Build.0 = Release|Any CPU
-		{C0C5FDFB-0EA2-446A-B92E-195B9B523BEC}.Release|x64.ActiveCfg = Release|Any CPU
-		{C0C5FDFB-0EA2-446A-B92E-195B9B523BEC}.Release|x64.Build.0 = Release|Any CPU
-		{C0C5FDFB-0EA2-446A-B92E-195B9B523BEC}.Release|x86.ActiveCfg = Release|Any CPU
-		{C0C5FDFB-0EA2-446A-B92E-195B9B523BEC}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

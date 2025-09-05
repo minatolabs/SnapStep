@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "SnapStep.App\\SnapStep.App.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "SnapStep.Server\\SnapStep.Server.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

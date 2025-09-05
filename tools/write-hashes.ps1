@@ -1,6 +1,6 @@
 param(
   [string]$Root = "$PSScriptRoot\..",
-  [string]$Out  = "$PSScriptRoot\..\SnapStep.Server\TamperInfo.cs"
+  [string]$Out  = "$PSScriptRoot\..\SnapStep.App\TamperInfo.cs"
 )
 
 $targets = @(
@@ -8,16 +8,16 @@ $targets = @(
 )
 
 $lines = @()
-$lines += "namespace SnapStep.Server {"
+$lines += "namespace SnapStep {"
 $lines += "  internal static class TamperInfo {"
 $lines += "    public static readonly (string Path, string Sha256)[] Files = new[] {"
 
 foreach ($t in $targets) {
-  $full = Join-Path (Join-Path $Root "SnapStep.Server") $t
+  $full = Join-Path (Join-Path $Root "SnapStep.App") $t
   if (!(Test-Path $full)) { continue }
   $hash = (Get-FileHash $full -Algorithm SHA256).Hash
   $rel  = $t.Replace('\','/')
-  $lines += "      (`"$rel`", `"$hash`"),"
+  $lines += "      (""$rel"", ""$hash""),"
 }
 
 $lines += "    };"
