@@ -1,0 +1,13 @@
+﻿---
+description: Always-on guardrails for this project
+globs: ["**/*"]
+alwaysApply: true
+---
+
+# Core Guardrails
+
+- Follow the agreed SnapStep architecture and constraints for this repository.
+- Prefer Python for core logic and tooling. Do not introduce new JS frameworks unless explicitly required by PRD.
+- Before implementing any feature, check relevant docs in `docs/prd` and `docs/mvp`.
+- If a request conflicts with PRD/MVP, tests, or architecture, STOP and explain the conflict; do not guess.
+- Keep changes small, explicit, and include or propose matching tests.

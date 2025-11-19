@@ -1,0 +1,15 @@
+﻿---
+description: How the AI should use PRD/MVP docs
+globs: ["**/*"]
+alwaysApply: true
+---
+
+# Using the PRD and MVP Docs
+
+- For any task, search for relevant requirements in:
+  - `docs/prd/**/*.md`
+  - `docs/mvp/**/*.md`
+- Extract only the sections that directly match the feature or module being worked on.
+- Cite the file path(s) when basing decisions on those docs.
+- If requirements are missing or ambiguous, list the exact gaps instead of inventing behavior.
+- Stay aligned with this repo's chosen stack, patterns, and constraints when interpreting the docs.
