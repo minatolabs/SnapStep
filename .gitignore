@@ -52,4 +52,7 @@ Thumbs.db
 # Documentation
 docs/
 
+# Progress tracking (local only)
+progress.md
+
 
